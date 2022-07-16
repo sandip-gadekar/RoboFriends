@@ -32,7 +32,7 @@ render() {
 
     return (
       <div>
-        <h1 className='tc'>ROBO FRIEND</h1>
+        <h1 className='tc'>ROBO FRIENDS</h1>
         <Search onsearch={this.onsearch}/>
         <Scroll>
           <CardList robots={filteredRobots}/>
